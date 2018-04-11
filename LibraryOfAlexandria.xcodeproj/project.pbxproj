@@ -15,6 +15,8 @@
 		AF5E972F207DE4C2005B6A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5E972D207DE4C2005B6A86 /* LaunchScreen.storyboard */; };
 		AF5E973A207DE4C2005B6A86 /* LibraryOfAlexandriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9739207DE4C2005B6A86 /* LibraryOfAlexandriaTests.swift */; };
 		AF5E9745207DE4C2005B6A86 /* LibraryOfAlexandriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9744207DE4C2005B6A86 /* LibraryOfAlexandriaUITests.swift */; };
+		AF5E9753207DE555005B6A86 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9752207DE555005B6A86 /* Book.swift */; };
+		AF5E9755207DE5D3005B6A86 /* AddNewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9754207DE5D3005B6A86 /* AddNewBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AF5E9740207DE4C2005B6A86 /* LibraryOfAlexandriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryOfAlexandriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5E9744207DE4C2005B6A86 /* LibraryOfAlexandriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryOfAlexandriaUITests.swift; sourceTree = "<group>"; };
 		AF5E9746207DE4C2005B6A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5E9752207DE555005B6A86 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AF5E9754207DE5D3005B6A86 /* AddNewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				AF5E972D207DE4C2005B6A86 /* LaunchScreen.storyboard */,
 				AF5E9730207DE4C2005B6A86 /* Info.plist */,
 				AF5E9728207DE4C2005B6A86 /* LibraryOfAlexandria.xcdatamodeld */,
+				AF5E9752207DE555005B6A86 /* Book.swift */,
+				AF5E9754207DE5D3005B6A86 /* AddNewBookViewController.swift */,
 			);
 			path = LibraryOfAlexandria;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5E9753207DE555005B6A86 /* Book.swift in Sources */,
 				AF5E972A207DE4C2005B6A86 /* LibraryOfAlexandria.xcdatamodeld in Sources */,
 				AF5E9724207DE4C2005B6A86 /* ViewController.swift in Sources */,
+				AF5E9755207DE5D3005B6A86 /* AddNewBookViewController.swift in Sources */,
 				AF5E9722207DE4C2005B6A86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
