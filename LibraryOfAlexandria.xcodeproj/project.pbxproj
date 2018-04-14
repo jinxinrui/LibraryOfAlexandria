@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF3742A32080D8B300E848A6 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3742A22080D8B300E848A6 /* SearchTableViewCell.swift */; };
 		AF5E9722207DE4C2005B6A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9721207DE4C2005B6A86 /* AppDelegate.swift */; };
 		AF5E9724207DE4C2005B6A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9723207DE4C2005B6A86 /* ViewController.swift */; };
 		AF5E9727207DE4C2005B6A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5E9725207DE4C2005B6A86 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF3742A22080D8B300E848A6 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		AF5E971E207DE4C2005B6A86 /* LibraryOfAlexandria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryOfAlexandria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5E9721207DE4C2005B6A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5E9723207DE4C2005B6A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				AF5E9728207DE4C2005B6A86 /* LibraryOfAlexandria.xcdatamodeld */,
 				AF5E9752207DE555005B6A86 /* Book.swift */,
 				AF5E9754207DE5D3005B6A86 /* AddNewBookViewController.swift */,
+				AF3742A22080D8B300E848A6 /* SearchTableViewCell.swift */,
 			);
 			path = LibraryOfAlexandria;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				AF5E972A207DE4C2005B6A86 /* LibraryOfAlexandria.xcdatamodeld in Sources */,
 				AF5E9724207DE4C2005B6A86 /* ViewController.swift in Sources */,
 				AF5E9755207DE5D3005B6A86 /* AddNewBookViewController.swift in Sources */,
+				AF3742A32080D8B300E848A6 /* SearchTableViewCell.swift in Sources */,
 				AF5E9722207DE4C2005B6A86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

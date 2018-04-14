@@ -11,6 +11,7 @@ import UIKit
 class AddNewBookViewController: UIViewController {
 
     @IBOutlet weak var inputTItle: UITextField!
+    
     @IBOutlet weak var inputIsbn: UITextField!
     
     @IBOutlet weak var inputAuthor: UITextField!
@@ -24,6 +25,7 @@ class AddNewBookViewController: UIViewController {
     @IBOutlet weak var inputGenre: UITextField!
     
     @IBOutlet weak var inputDescr: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
